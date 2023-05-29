@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 4%;
+}
+
+.header h1{
+    font-size: 350%;
+    color: #593202;
+}

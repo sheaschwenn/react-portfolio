@@ -1,0 +1,64 @@
+
+.portfolio  h2{
+    font-family: var(--font-h2);
+    text-align: center;
+    font-size: 200%;
+    color:#593202
+}
+.all-apps{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+     width: 80%;
+}
+
+.first-app{
+    flex: 2 1 0;
+    height: auto;
+    border-radius: 4%;
+    width: 33%;
+    
+    
+}
+.portfolio a:hover {
+    font-style: italic;
+   }
+
+   .portfolio a{
+    color: #a1c116;
+    font-family:var(--font-button) ;
+    text-decoration: none;
+   }
+
+   .app {
+    display: flex;
+    flex-wrap: wrap;
+    width: 68%;
+    height: auto;
+
+}
+
+.app img{
+    flex: 1 1 0;
+    max-width:100% ; 
+    height: auto; 
+    border-radius: 10%; 
+    padding: 5px;
+}
+
+.side{
+    width: 50%;
+
+}
+.side img{
+    width: 100%;
+}
+/* sets width of the app section with class other */
+.other{
+    width: 50%;
+}
+.other img{
+    width: 100%;
+} 

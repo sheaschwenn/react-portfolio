@@ -1,17 +1,18 @@
 import React from 'react'
 import resume from './../../files/resume.pdf'
+import './../../styles/Resume.css'
 
 function Resume(){
     return(
-        <div>
+        <div className= "resume">
         <a 
         href={resume}
-        download="Shea-Resume"
+        download="SheaSchwennicke-Resume"
         target= "_blank"
         rel="noreferrer"
         > Resume</a>
 
-        <ul>
+        <ul className= "skills">
             <li>HTML</li>
             <li>CSS</li>
             <li>Bootstrap</li>

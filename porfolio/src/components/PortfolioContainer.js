@@ -3,15 +3,16 @@ import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
-import NavTabs from './NabTabs'
+// import NavTabs from './NabTabs'
 import Footer from './Footer'
 import Header from './Header'
+import './../styles/PortfolioContainer.css'
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("AboutMe");
+  const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
-    if (currentPage === "AboutMe") {
+    if (currentPage === "About") {
       return <AboutMe />;
     }
     if (currentPage === "Portfolio") {
@@ -28,7 +29,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return(
-    <div>
+    <div className= 'body'>
         <Header currentPage = {currentPage} handlePageChange={handlePageChange}/>
         {/* <NavTabs currentPage = {currentPage} handlePageChange={handlePageChange}/> */}
         {renderPage()}

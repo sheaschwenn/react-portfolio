@@ -4,10 +4,11 @@ import devs from './../../images/devs-stairs.JPG'
 import gals from './../../images/gals-boards.JPG'
 import pebble from './../../images/pebble-beach.JPG'
 import palm from './../../images/palm.jpeg'
+import './../../styles/Portfolio.css'
 
 function Portfolio(){
 return (
-<section >
+<section className='portfolio' >
 <h2>PORTFOLIO</h2>
 <section className='all-apps'>
     
@@ -34,7 +35,7 @@ return (
              </a>
         </section>
         
-        <section class="other">
+        <section className="other">
 
             <a href="https://www.youtube.com/watch?v=RmY1TJ6B-0g&ab_channel=MsCharlieBrown78%28CharlieRae%29">
                     <img src= {pebble}alt="women walking on a rocky beach"/>

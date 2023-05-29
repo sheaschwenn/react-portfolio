@@ -1,11 +1,12 @@
 import React from 'react';
-const pages = ['AboutMe', 'Portfolio', 'Resume', 'Contact']
+import '../styles/NavTabs.css'
+const pages = ['About', 'Portfolio', 'Resume', 'Contact']
 
 function NavTabs({currentPage, handlePageChange}){
     
     return(
-        <ul className='nav nav-tabs'>
-           
+        <nav className='nav nav-tabs'>
+           <ul>
             {pages.map(function(page, i){
                 return (
                     <li className ='nav-item' key={i}>
@@ -54,7 +55,8 @@ function NavTabs({currentPage, handlePageChange}){
                     Contact
                 </a>
             </li> */}
-        </ul>
+            </ul>
+        </nav>
     )
 }
 

@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer img {
+    width: 50%; /* Adjust the width as per your requirement */
+    height: auto; /* Preserve aspect ratio */
+    margin: 0 10px; /* Adjust the margin spacing between images */
+  }

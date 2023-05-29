@@ -1,0 +1,26 @@
+.me{
+    display: flex; 
+    margin-top: 5%;
+}
+/* want profile photo to take up 35% of the page and start a little higher than the about me section */
+.profile-pic{   
+    width: 35%;
+    margin-top:-5%;
+}
+
+/* putting the about me to the right of profile picture */
+/* adding styling to the about me to position it where I want  */
+.about{
+    float: right;
+    display: inline;
+    margin-left: 5%;
+    margin-top: 5%;
+    width:60%;
+    padding-left: 10%;
+    padding-right:10%;  
+}
+/* specific styling for the about me header  */
+.about h2{
+    color: #a1c116;
+    margin-bottom: 5%;
+}
