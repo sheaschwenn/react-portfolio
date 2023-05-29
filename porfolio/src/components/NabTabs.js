@@ -5,6 +5,7 @@ function NavTabs({currentPage, handlePageChange}){
     
     return(
         <ul className='nav nav-tabs'>
+           
             {pages.map(function(page, i){
                 return (
                     <li className ='nav-item' key={i}>
