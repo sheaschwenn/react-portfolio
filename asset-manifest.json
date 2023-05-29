@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/react-portfolio/static/js/main.8da29f53.js",
+    "main.css": "/react-portfolio/static/css/main.16758d16.css",
+    "main.js": "/react-portfolio/static/js/main.8deeefbd.js",
     "static/js/787.202b8111.chunk.js": "/react-portfolio/static/js/787.202b8111.chunk.js",
-    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/devs-stairs.JPG": "/react-portfolio/static/media/devs-stairs.649418cc199b570a4453.JPG",
+    "static/media/gals-boards.JPG": "/react-portfolio/static/media/gals-boards.f02a0e40c38a178ce957.JPG",
+    "static/media/app-pic.JPG": "/react-portfolio/static/media/app-pic.75ac5849b3e5a1b40627.JPG",
+    "static/media/profile-pic.jpeg": "/react-portfolio/static/media/profile-pic.341f75c358056b902389.jpeg",
+    "static/media/palm.jpeg": "/react-portfolio/static/media/palm.fd0ae3dd59c677bd1a75.jpeg",
+    "static/media/pebble-beach.JPG": "/react-portfolio/static/media/pebble-beach.7cbb2a5ecff7a7171bca.JPG",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.23c77ebf92012a6ee5f9.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.8da29f53.js.map": "/react-portfolio/static/js/main.8da29f53.js.map",
+    "main.16758d16.css.map": "/react-portfolio/static/css/main.16758d16.css.map",
+    "main.8deeefbd.js.map": "/react-portfolio/static/js/main.8deeefbd.js.map",
     "787.202b8111.chunk.js.map": "/react-portfolio/static/js/787.202b8111.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.8da29f53.js"
+    "static/css/main.16758d16.css",
+    "static/js/main.8deeefbd.js"
   ]
 }
