@@ -5,6 +5,7 @@ import gals from './../../images/gals-boards.JPG'
 import pebble from './../../images/pebble-beach.JPG'
 import palm from './../../images/palm.jpeg'
 import './../../styles/Portfolio.css'
+// import Project from './../Project'
 
 function Portfolio(){
 return (
@@ -27,7 +28,7 @@ return (
                     <img src={devs} alt="staircase with ocean in the background"/>
                  <h3>Pantry Pal</h3>
              </a>
-
+            {/* <Project link="https://shopwithpantrypal.herokuapp.com/" img={devs} alt="staircase with ocean in the background" heading= "Pantry Pal" /> */}
 
              <a href="https://open.spotify.com/album/1E6aIrYOcysBusmGfm2Pcm">
                 <img src={gals} alt="women walking with surfboards"/>

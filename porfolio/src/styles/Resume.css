@@ -1,3 +1,23 @@
 .skills{
     list-style: none;
+    color: #593202
 }
+
+.resume{
+    margin-left: 3%
+}
+
+.resume a{
+    text-decoration: none;
+    color: #4fa6b0;
+    font-weight: bolder;
+}
+.resume h2{
+    color: #a1c116;
+    font-size: 200%;;
+    text-align: center;
+}
+.resume h3{
+    color: #593202
+}
+

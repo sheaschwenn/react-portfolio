@@ -5,13 +5,14 @@ import './../../styles/Resume.css'
 function Resume(){
     return(
         <div className= "resume">
+        <h2>RESUME</h2>
         <a 
         href={resume}
         download="SheaSchwennicke-Resume"
         target= "_blank"
         rel="noreferrer"
-        > Resume</a>
-
+        > Download: Shea Schwennicke's Resume</a>
+        <h3>Skills</h3>
         <ul className= "skills">
             <li>HTML</li>
             <li>CSS</li>

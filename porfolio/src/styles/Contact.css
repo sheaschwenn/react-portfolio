@@ -6,19 +6,29 @@
 
 
 .form {
-    margin: 20px;
+    margin-top:5%;
+    margin-left: 25%;
+    width: 50%;
+    align-content: center;
+    margin-bottom:5%
   }
   
   .form input {
     display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+  }
+  .form textarea{
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 1%;
     width: 100%;
   }
 
   .submit{
-   
-    
+    margin-top: 1%;
+    margin-left:90%;
     border:solid #a1c116 5px;
     border-radius: 5%;
     
