@@ -24,3 +24,36 @@
     color: #a1c116;
     margin-bottom: 5%;
 }
+
+
+@media screen and (max-width:992px) {
+  
+    .about{
+        margin-top: 0%;
+        
+    }
+    .about h2{
+        margin-bottom: 0%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .me{
+        flex-direction: column;
+        margin-bottom:5%;
+        
+    }
+    .profile-pic{   
+        width: 50%;
+        margin: 0;
+        align-self: center;
+    }
+    .about{
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .about   p{
+        font-size: small;
+     }
+}

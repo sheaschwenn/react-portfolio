@@ -26,3 +26,15 @@
 .nav-link.active{
     color: #a1c116
 }
+
+@media screen and (max-width:992px) {
+    .nav{
+        width: 100%;
+        margin-top: 1%;
+        
+    }
+    .nav ul{
+        justify-content: space-evenly;
+    }
+
+}
