@@ -19,9 +19,12 @@
     height: auto;
     border-radius: 4%;
     width: 33%;
-    
-    
 }
+.first-app h4{
+    margin-top: -25%;
+    margin-right: -500%
+}
+
 .portfolio a:hover {
     font-style: italic;
    }
@@ -30,6 +33,7 @@
     color: #a1c116;
     font-family:var(--font-button) ;
     text-decoration: none;
+    
    }
 
    .app {
@@ -42,10 +46,12 @@
 
 .app img{
     flex: 1 1 0;
-    max-width:100% ; 
+    max-width:98% ; 
     height: auto; 
     border-radius: 10%; 
     padding: 5px;
+    margin-bottom: -8%;
+    /* margin-left: 1% */
 }
 
 .side{
@@ -53,12 +59,22 @@
 
 }
 .side img{
-    width: 100%;
+    width: 93%;
+}
+
+.side h4{
+    margin-top: -5%;
+    margin-bottom: -0.01%
 }
 /* sets width of the app section with class other */
 .other{
     width: 50%;
 }
 .other img{
-    width: 100%;
+    width: 93%;
 } 
+
+.other h4{
+    margin-top: -5%;
+    margin-bottom: -0.1%
+}

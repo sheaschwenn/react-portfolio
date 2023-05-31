@@ -18,6 +18,9 @@ return (
             <img src={portugal}alt="Southern Portugal coastline"/>
             <h3>Colorful Careers</h3>
         </a>
+        <a href="https://github.com/lauriefish22/Colorful-Careers">
+                <h4>GitHub</h4>
+             </a>
     </section>
 
   
@@ -25,28 +28,40 @@ return (
     
         <section className="side">
             <a href="https://shopwithpantrypal.herokuapp.com/">
+           
                     <img src={devs} alt="staircase with ocean in the background"/>
-                 <h3>Pantry Pal</h3>
+                    <h3 className= 'title'>Pantry Pal</h3>
              </a>
-            {/* <Project link="https://shopwithpantrypal.herokuapp.com/" img={devs} alt="staircase with ocean in the background" heading= "Pantry Pal" /> */}
+             <a href="https://github.com/sheaschwenn/Pantrypal">
+                <h4>GitHub</h4>
+             </a>
 
-             <a href="https://open.spotify.com/album/1E6aIrYOcysBusmGfm2Pcm">
+             <a href="https://nameless-brushlands-92210.herokuapp.com/">
                 <img src={gals} alt="women walking with surfboards"/>
-                <h3>Boom</h3>
+                <h3>JATE</h3>
+             </a>
+             <a href="https://github.com/sheaschwenn/text-editor">
+                <h4>GitHub</h4>
              </a>
         </section>
         
         <section className="other">
 
-            <a href="https://www.youtube.com/watch?v=RmY1TJ6B-0g&ab_channel=MsCharlieBrown78%28CharlieRae%29">
+            <a href="https://tech-blog-cmv.herokuapp.com/">
                     <img src= {pebble}alt="women walking on a rocky beach"/>
-                <h3>Big Things</h3>
+                <h3>Tech Blog</h3>
+             </a>
+             <a href="https://github.com/sheaschwenn/tech-blog">
+                <h4>GitHub</h4>
              </a>
     
     
-            <a href="https://www.youtube.com/watch?v=arxhW1RgDDo&ab_channel=lee57">
+            <a href="https://note-writting.herokuapp.com/">
                 <img src={palm} alt="palm tree and ocean "/>
-                <h3>Coming Soon</h3>
+                <h3>Note Taker</h3>
+                <a href="https://github.com/sheaschwenn/Note-Taker">
+                <h4>GitHub</h4>
+             </a>
             </a>
         </section>
     </section>

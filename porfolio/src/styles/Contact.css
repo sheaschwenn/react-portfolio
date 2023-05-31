@@ -36,3 +36,29 @@
     color: #593202;
     font-weight: bold;
   }
+
+  input[type="text"],
+input[type="email"],
+textarea {
+  /* Add styles to the input and textarea elements */
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  /* Add styles for focused input and textarea */
+  border-color: #a8a8a8;
+  box-shadow: 0 0 3px #a8a8a8;
+}
+
+.error-text {
+    /* Add styles for error messages */
+    color: red;
+    margin-left: 1.9rem;
+    margin-top: -1rem
+  }
