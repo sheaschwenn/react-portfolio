@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.60c04a84.css",
-    "main.js": "/react-portfolio/static/js/main.673c9ad7.js",
+    "main.css": "/react-portfolio/static/css/main.b94ba622.css",
+    "main.js": "/react-portfolio/static/js/main.9c4f06e1.js",
     "static/js/787.202b8111.chunk.js": "/react-portfolio/static/js/787.202b8111.chunk.js",
     "static/media/devs-stairs.JPG": "/react-portfolio/static/media/devs-stairs.649418cc199b570a4453.JPG",
     "static/media/gals-boards.JPG": "/react-portfolio/static/media/gals-boards.f02a0e40c38a178ce957.JPG",
@@ -11,12 +11,12 @@
     "static/media/pebble-beach.JPG": "/react-portfolio/static/media/pebble-beach.7cbb2a5ecff7a7171bca.JPG",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.23c77ebf92012a6ee5f9.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.60c04a84.css.map": "/react-portfolio/static/css/main.60c04a84.css.map",
-    "main.673c9ad7.js.map": "/react-portfolio/static/js/main.673c9ad7.js.map",
+    "main.b94ba622.css.map": "/react-portfolio/static/css/main.b94ba622.css.map",
+    "main.9c4f06e1.js.map": "/react-portfolio/static/js/main.9c4f06e1.js.map",
     "787.202b8111.chunk.js.map": "/react-portfolio/static/js/787.202b8111.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60c04a84.css",
-    "static/js/main.673c9ad7.js"
+    "static/css/main.b94ba622.css",
+    "static/js/main.9c4f06e1.js"
   ]
 }
