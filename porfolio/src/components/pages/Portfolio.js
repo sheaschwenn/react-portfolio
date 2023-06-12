@@ -36,11 +36,11 @@ return (
                 <h4>GitHub</h4>
              </a>
 
-             <a href="https://nameless-brushlands-92210.herokuapp.com/">
+             <a href="https://budgetbetter.herokuapp.com/">
                 <img src={gals} alt="women walking with surfboards"/>
-                <h3>JATE</h3>
+                <h3>Budget Better</h3>
              </a>
-             <a href="https://github.com/sheaschwenn/text-editor">
+             <a href="https://github.com/sheaschwenn/budget-better">
                 <h4>GitHub</h4>
              </a>
         </section>
