@@ -1,13 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { validateEmail } from "../../utils/helpers";
 import "./../../styles/Contact.css";
+import emailjs from '@emailjs/browser'
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
   const [errorMessage, setErrorMessage] = useState("");
-
+  const sendEmail = (event) => {
+    
+    emailjs.sendForm('service_qp2qzrg', 'template_0t6qoeg', event.target, '2dk2ykzhVtkjSdraR')
+  }
   const handleInputChange = (event) => {
     const { target } = event;
     const inputType = target.name;
@@ -21,10 +25,10 @@ const Contact = () => {
       setMessage(inputValue);
     }
   };
-
+  const form = useRef()
   const handleFormSubmit = (event) => {
     event.preventDefault();
-
+    
     if (!validateEmail(email)) {
       setErrorMessage("Email is invalid");
       return;
@@ -33,7 +37,8 @@ const Contact = () => {
       setErrorMessage(`All fields are required`);
       return;
     }
-
+    ; 
+    emailjs.sendForm('service_qp2qzrg', 'template_0t6qoeg', form.current, '2dk2ykzhVtkjSdraR')
     setName("");
     setEmail("");
     setMessage("");
@@ -50,7 +55,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <h2>CONTACT</h2>
-      <form className="form" onSubmit={handleFormSubmit}>
+      <form className="form" onSubmit={handleFormSubmit} ref={form}>
         <input
           value={name}
           type="text"
