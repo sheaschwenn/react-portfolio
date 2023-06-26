@@ -8,10 +8,7 @@ const Contact = () => {
   const [message, setMessage] = useState("");
 
   const [errorMessage, setErrorMessage] = useState("");
-  const sendEmail = (event) => {
-    
-    emailjs.sendForm('service_qp2qzrg', 'template_0t6qoeg', event.target, '2dk2ykzhVtkjSdraR')
-  }
+  
   const handleInputChange = (event) => {
     const { target } = event;
     const inputType = target.name;
@@ -43,6 +40,7 @@ const Contact = () => {
     setEmail("");
     setMessage("");
     setErrorMessage("");
+    console.log("email sent")
   };
 
   const handleBlur = (event) => {
